@@ -5,6 +5,7 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+
 # Visual Studio cache directory
 .vs/
 
@@ -34,3 +35,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Jetbrains
+/.idea
+Assets/Plugins/Editor/Jetbrains/
