@@ -46,7 +46,7 @@ namespace UI {
         }
 
         private void Invalidate() {
-            if (NormalImage == null || RatingImage == null)
+            if (NormalImage == null || RatingImage == null || group == null)
                 return;
 
             foreach (Transform child in group.transform) {
